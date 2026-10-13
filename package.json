@@ -1,0 +1,20 @@
+{
+  "name": "slack-opencode-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that routes messages to OpenCode agent in Docker",
+  "main": "index.js",
+   "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "dockerode": "^4.0.2",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  },
+
+  "engines": {
+    "node": ">=18"
+  }
+}
