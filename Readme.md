@@ -17,6 +17,16 @@ Slack  ──▶  Bot (Node.js)  ──▶  Docker container (OpenCode server)  
 
 **Requirements:** Node.js 18+, Docker, a Slack workspace where you can install apps, and a model API key (Anthropic by default).
 
+### Demo
+
+| Step 1 | Step 2 |
+|--------|--------|
+| ![Step 1](outputs/1.png) | ![Step 2](outputs/2.png) |
+
+| Step 3 | Step 4 |
+|--------|--------|
+| ![Step 3](outputs/3.png) | ![Step 4](outputs/4.png) |
+
 ```bash
 git clone https://github.com/nsvoriginals/remote-agents.git && cd remote-agents
 npm install
